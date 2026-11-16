@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hoang Khanh Linh To | Portfolio</title>
+  <meta name="description" content="Portfolio of Hoang Khanh Linh To, Computer Science & Systems student at UW Tacoma focused on game development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">HKLT<span>.</span></a>
+    <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HOME -->
+  <section id="home" class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Computer Science &amp; Systems · UW Tacoma</p>
+        <h1>Hoang Khanh Linh To</h1>
+        <p class="tagline">I build gameplay systems with clean, object-oriented code.</p>
+        <p class="lead">I'm a Computer Science and Systems student looking for a <strong>Summer 2027 software engineering internship in game development</strong>. I have three years of programming experience in C++, Java, and Python.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Download resume</a>
+        </div>
+      </div>
+      <div class="avatar" aria-hidden="true">
+        <!-- Replace this block with <img src="images/photo.jpg" alt="Photo of Hoang Khanh Linh To"> to add a photo -->
+        <span>HL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div>
+          <p>I'm working on a B.A. in Computer Science and Systems at the <strong>University of Washington Tacoma</strong> and expect to graduate in March 2028. Before UW, I earned an Associate of Arts with a computer science focus from <strong>Tacoma Community College</strong>.</p>
+          <p>I care most about <strong>gameplay programming</strong>: designing the systems, state, and rules that make a game feel responsive and fun. I like code that is well organized and easy to extend. I also pick up new tools and engines quickly.</p>
+          <p><strong>Career goal:</strong> to start my career as a software engineer on a game development team, building gameplay features and the systems behind them.</p>
+        </div>
+        <ul class="facts">
+          <li><span>Based in</span>Tacoma, WA</li>
+          <li><span>Studying</span>B.A. CS &amp; Systems, UW Tacoma</li>
+          <li><span>Graduating</span>March 2028</li>
+          <li><span>Looking for</span>Summer 2027 SWE internship (game dev)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="alt">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <p class="section-note">This section is a work in progress. I'll add new projects every quarter.</p>
+
+      <article class="project featured">
+        <div class="project-visual" aria-hidden="true">
+          <pre class="terminal">=== TAMAGOTCHI ===
+Pet: Mochi (age 2)
+
+Hunger    [######----]
+Happiness [########--]
+Stamina   [####------]
+
+1) Feed   2) Play
+3) Sleep  4) Status
+&gt; _</pre>
+        </div>
+        <div class="project-body">
+          <p class="meta">Dec. 2025 – Present</p>
+          <h3>Tamagotchi: Virtual Pet Simulation Game</h3>
+          <p>A text-based virtual pet game I first built as a class project. I've kept adding features to it on my own since then. Players name and customize a pet, then care for it by feeding it, playing with it, and letting it rest, while its stats change after every action.</p>
+          <ul class="tags"><li>Java</li><li>Python</li><li>OOP</li><li>Game state</li></ul>
+          <h4>What I built</h4>
+          <ul>
+            <li>Gameplay systems that track hunger, happiness, and stamina and update each stat based on what the player does</li>
+            <li>Pet customization (name, age)</li>
+            <li>Object-oriented classes for the pet, its actions, and the game logic</li>
+            <li>A menu-driven interface that reads player input and reports the pet's status after each action</li>
+          </ul>
+          <h4>Challenges &amp; key learnings</h4>
+          <p>The tricky part was balancing the stats. Each action needed to matter without letting one stat take over the game. Splitting the pet, its actions, and the game loop into separate classes made it much easier to add new features later without breaking existing ones.</p>
+          <a class="link" href="https://github.com/hto-00" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project placeholder">
+          <p class="meta">Coming soon</p>
+          <h3>Project 2</h3>
+          <p>My next project will go here, with its description, tech stack, screenshots, and what I learned.</p>
+        </article>
+        <article class="project placeholder">
+          <p class="meta">Coming soon</p>
+          <h3>Project 3</h3>
+          <p>Another place reserved for an upcoming project. Check back next quarter.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <div class="card">
+          <h3>Languages</h3>
+          <ul class="tags"><li>C++</li><li>C</li><li>Java</li><li>Python</li></ul>
+        </div>
+        <div class="card">
+          <h3>Concepts</h3>
+          <ul class="tags"><li>Object-oriented design</li><li>Data structures</li><li>Game state management</li><li>Debugging</li></ul>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <ul class="tags"><li>Git</li><li>GitHub</li><li>GitHub Pages</li></ul>
+        </div>
+        <div class="card">
+          <h3>Professional</h3>
+          <ul class="tags"><li>Problem solving</li><li>Team collaboration</li><li>Learning new tools &amp; engines quickly</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="alt">
+    <div class="wrap">
+      <h2>Experience &amp; Education</h2>
+      <div class="timeline">
+        <div class="item">
+          <p class="meta">Jan. 2026 – March 2028 (expected)</p>
+          <h3>University of Washington Tacoma</h3>
+          <p class="sub">B.A. Computer Science and Systems</p>
+        </div>
+        <div class="item">
+          <p class="meta">Oct. 2023 – Dec. 2025</p>
+          <h3>Tacoma Community College</h3>
+          <p class="sub">Associate of Arts, Computer Science focus</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume">
+    <div class="wrap">
+      <h2>Resume</h2>
+      <p><a class="btn primary" href="resume.pdf" target="_blank" rel="noopener">Open resume (PDF)</a></p>
+      <object class="resume-embed" data="resume.pdf" type="application/pdf" aria-label="Resume PDF">
+        <p>Your browser can't show the PDF here. <a href="resume.pdf">Download it instead.</a></p>
+      </object>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="alt">
+    <div class="wrap contact">
+      <h2>Contact</h2>
+      <p>I'm open to internship opportunities, collaborations, and conversations about game development.</p>
+      <div class="contact-links">
+        <a class="btn primary" href="mailto:hoangkhanhlinhto@gmail.com">hoangkhanhlinhto@gmail.com</a>
+        <a class="btn" href="https://github.com/hto-00" target="_blank" rel="noopener">GitHub</a>
+        <!-- <a class="btn" href="https://www.linkedin.com/in/YOUR-HANDLE" target="_blank" rel="noopener">LinkedIn</a> -->
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Hoang Khanh Linh To · Hosted on GitHub Pages</p>
+</footer>
+
+<script>
+  const btn = document.querySelector('.menu-btn');
+  const nav = document.querySelector('.nav nav');
+  btn.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open);
+  });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    nav.classList.remove('open');
+    btn.setAttribute('aria-expanded', false);
+  }));
+</script>
+</body>
+</html>
